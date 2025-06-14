@@ -1,0 +1,9 @@
+{
+  "catalogs": [],
+  "schemas": [
+    {
+      "uri": "playlist.xsd",
+      "fileMatch": ["playlist.xml"]
+    }
+  ]
+}

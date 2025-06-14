@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="playlist.xsd">
+    <song>
+        <title>Shape of You</title>
+        <artist>Ed Sheeran</artist>
+        <genre>Pop</genre>
+        <duration>03:53</duration>
+    </song>
+    <song>
+        <title>Bohemian Rhapsody</title>
+        <artist>Queen</artist>
+        <genre>Pop</genre>
+        <duration>05:55</duration>
+    </song>
+</playlist>

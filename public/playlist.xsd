@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="playlist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="song" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="title" type="xs:string"/>
+              <xs:element name="artist" type="xs:string"/>
+              <xs:element name="genre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="Pop"/>
+                    <xs:enumeration value="Rock"/>
+                    <xs:enumeration value="Jazz"/>
+                    <xs:enumeration value="Hip-Hop"/>
+                    <xs:enumeration value="Classical"/>
+                    <xs:enumeration value="Electronic"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="duration">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <!-- Format: mm:ss -->
+                    <xs:pattern value="\d{1,2}:\d{2}"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
