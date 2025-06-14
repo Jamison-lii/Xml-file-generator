@@ -1,0 +1,7 @@
+#ignore node_modules directory
+node_modules/
+
+#ignore other common directories/files
+dist/
+build/
+logs/
