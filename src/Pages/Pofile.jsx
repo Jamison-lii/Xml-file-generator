@@ -46,7 +46,7 @@ export default function Profile() {
 
       {/* My Uploads */}
       <section className="mb-8">
-        <h2 className="text-xl font-semibold text-[#800000] mb-3">📤 My Uploads</h2>
+        <h2 className="text-xl font-semibold text-[#800000] mb-3">📤 My Uploadss</h2>
         {myUploads.length === 0 ? (
           <p className="text-sm text-gray-500">You haven’t uploaded any documents yet.</p>
         ) : (
